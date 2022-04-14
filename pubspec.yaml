@@ -1,0 +1,67 @@
+name: savetime
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  get: ^4.6.1
+  sliding_up_panel: ^2.0.0+1
+  tab_indicator_styler: ^2.0.0
+  google_nav_bar: ^5.0.6
+  
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+  flutter_lints: ^1.0.4
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'assets/images/logo02.png'
+  adaptive_icon_background: '#ffffff'
+  adaptive_icon_foreground: 'assets/images/logo_foreground.png'
+
+
+  flutter_lints: ^1.0.0
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-MediumItalic.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Redressed
+      fonts:
+        - asset: assets/fonts/Redressed-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+
